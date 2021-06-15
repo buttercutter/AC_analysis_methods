@@ -1,0 +1,24 @@
+(envOpts analysisOrder) ("dc" "gnt" "ac" "pz" "dcmatch" "stb" "tran" "envlp" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbnoise" "sens")
+(envOpts autoDisplay) t
+(envOpts cmd64bit) nil
+(envOpts cpfIsPommardEnabled) t
+(envOpts emAnaType) "Dynamic"
+(envOpts emTechFile) ""
+(envOpts emirEnable) nil
+(envOpts emirEnable_static) nil
+(envOpts emirSumList) nil
+(envOpts emirVarList) nil
+(envOpts enableArclength) nil
+(envOpts firstRun) nil
+(envOpts paramRangeCheckFile) ""
+(envOpts pllPlugin) ""
+(envOpts pllWizardinfo) ""
+(envOpts printComments) (nil nil)
+(envOpts restart) ""
+(envOpts savestate) ""
+(envOpts setTopLevelAsSubckt) nil
+(envOpts sst2usecolon) nil
+(envOpts stopViewList) ("SimResStd" "SimResAcc1" "SimBipStd" "SimBipAcc1" "SimCapaStd" "SimCapaAcc1" "spectre" "ahdl" "veriloga")
+(envOpts switchViewList) ("SimResStd" "SimResAcc1" "SimBipStd" "SimBipAcc1" "SimCapaStd" "SimCapaAcc1" "spectre" "auCmos_sch" "cmos_sch" "cmos.sch" "ads_schematic" "schematic" "auGate_sch" "auGate.sch" "gate_sch" "gate.sch" "extracted" "ahdl" "veriloga")
+(envOpts userCmdLineOption) "+lorder MMSIM"
+(envOpts vcoType) ""

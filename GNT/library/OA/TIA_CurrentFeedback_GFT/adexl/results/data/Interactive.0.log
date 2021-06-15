@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Jan 16 16:02:34 2015 
+Best design point: 1
+Design specs: 
+	basic	corner	Nominal - 
+	value(H 1)		79.91
+Design parameters: 
+	Rf		10k
+	ri		50
+	Z		1M
+	ZBW		100M
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Fri Jan 16 16:02:38 2015 

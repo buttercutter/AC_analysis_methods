@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "formatters": {
+        "simple": {
+            "()": "gnt.parse.LogFormatter",
+            "format_CRITICAL": "%(levelname)s: %(message)s",
+            "format_ERROR": "%(levelname)s: %(message)s",
+            "format_WARNING": "%(levelname)s: %(message)s",
+            "format_INFO": "%(message)s"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "stream": "ext://sys.stdout"
+        },
+        "file": {
+            "class": "gnt.parse.LogFileHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "mode": "a"
+        }
+    },
+    "root": {
+        "level": "INFO",
+        "handlers": ["console", "file"]
+    },
+    "disable_existing_loggers": false
+}

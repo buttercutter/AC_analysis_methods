@@ -1,0 +1,229 @@
+'(nil version 1.0 bBox ((2 69) (552 657)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+(unless printInfoDpl->expTable->waves
+printInfoDpl->expTable->waves = (ncons nil)
+)
+(unless printInfoDpl->expTable->origWaves
+printInfoDpl->expTable->origWaves = (ncons nil)
+)
+printInfoDpl->expTable->expressions = (let
+(tmp1)
+tmp1 = "OP(\"/I0/Q18\" \"??\")"
+list(tmp1)
+)
+printInfoDpl->expTable->aliases = (let
+(tmp1)
+tmp1 = "OP(\"/I0/Q18\" \"??\")"
+list(tmp1)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "simple wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37)
+tmp1 = "signal            OP(\"/I0/Q18\" \"??\")"
+tmp2 = "betaac               32.31          "
+tmp3 = "betadc               28.96          "
+tmp4 = "cmu                   9.288f        "
+tmp5 = "cmux                 99.94f         "
+tmp6 = "cpi                 614.3f          "
+tmp7 = "csub                 39.36f         "
+tmp8 = "ft                    2.132G        "
+tmp9 = "g0                   30.76u         "
+tmp10 = "gb                   63.88m         "
+tmp11 = "gm                    9.816m        "
+tmp12 = "gmu                  39.68f         "
+tmp13 = "gpi                 304.8u          "
+tmp14 = "grc                   7.937m        "
+tmp15 = "gre                 394.2m          "
+tmp16 = "ib                   -9.953u        "
+tmp17 = "ic                 -288.3u          "
+tmp18 = "isub                 -0             "
+tmp19 = "log_ib               -5.002         "
+tmp20 = "log_ic               -3.54          "
+tmp21 = "pwr                 258.1u          "
+tmp22 = "qbc                -158.7a          "
+tmp23 = "qbe                -170f            "
+tmp24 = "qsc                   0             "
+tmp25 = "rb                   15.65          "
+tmp26 = "rbb                  62.46          "
+tmp27 = "rc                  126             "
+tmp28 = "re                    2.537         "
+tmp29 = "region                1             "
+tmp30 = "ro                   32.51K         "
+tmp31 = "rpi                   3.281K        "
+tmp32 = "struct                1             "
+tmp33 = "type                  1             "
+tmp34 = "vbc                  18.99m         "
+tmp35 = "vbe                -847.1m          "
+tmp36 = "vce                -866.1m          "
+tmp37 = "vsub                  9.153         "
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = (let
+(tmp1 tmp2)
+tmp1 = ""
+tmp2 = ""
+list(tmp1 tmp2)
+)
+printInfoDpl->waveNameList = (let
+(tmp1 tmp2)
+tmp1 = "signal"
+tmp2 = "OP(\"/I0/Q18\" \"??\")"
+list(tmp1 tmp2)
+)
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/nfs/data/jverbrug/noninverting_amplifier_1/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/nfs/data/jverbrug/noninverting_amplifier_1/spectre"
+printInfoDpl->context->dataDir = "/nfs/data/jverbrug/noninverting_amplifier_1/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->cache->OP = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I0/Q18"
+tmp2 = "??"
+tmp3 = "/nfs/data/jverbrug/noninverting_amplifier_1/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+list(tmp1)
+)
+(unless printInfoDpl->context->simData
+printInfoDpl->context->simData = (ncons nil)
+)
+printInfoDpl->context->simData->drl = nil
+(unless printInfoDpl->context->simData->instData
+printInfoDpl->context->simData->instData = (ncons nil)
+)
+printInfoDpl->context->simData->dataDir = "/nfs/data/jverbrug/noninverting_amplifier_1/spectre/schematic"
+printInfoDpl->context->simData->simulator = "spectre"
+printInfoDpl->context->simData->aliasList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'subckts
+list(tmp1)
+)
+tmp2 = "subckts-info.subckts"
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'primitives
+list(tmp1)
+)
+tmp2 = "primitives-info.primitives"
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'designParamVals
+list(tmp1)
+)
+tmp2 = "designParamVals-info"
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'output
+list(tmp1)
+)
+tmp2 = "outputParameter-info"
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'instance
+list(tmp1)
+)
+tmp2 = "element-info"
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'model
+list(tmp1)
+)
+tmp2 = "modelParameter-info"
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOpInfo
+list(tmp1)
+)
+tmp2 = "dcOpInfo-info"
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOp
+list(tmp1)
+)
+tmp2 = "dcOp-dc"
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'variables
+list(tmp1)
+)
+tmp2 = "variables"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+)
+printInfoDpl->context->simulator = nil
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/home/design/jverbrug/git/gnt/library/OA/noninverting_amplifier_1/dc_gft_ct/printSetup.state"
+printInfoDpl->saveNeeded = nil

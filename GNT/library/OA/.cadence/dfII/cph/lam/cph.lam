@@ -1,0 +1,19 @@
+<!DOCTYPE LAM_FILE>
+<LIBRARY_DATA>
+  <VERSION NUMBER="0.3" />
+  <LOGICAL>
+    <LIB NAME="gnt">
+    <CELL NAME="cmdmgntprobe">
+        <VIEW NAME="symbol">
+            <REMOVE_DEVICE>(short(ym xm) short(yp xp))</REMOVE_DEVICE>
+        </VIEW>
+    </CELL>
+    <CELL NAME="gntprobe">
+        <VIEW NAME="symbol">
+            <REMOVE_DEVICE>(short(yy xx))</REMOVE_DEVICE>
+        </VIEW>
+    </CELL>
+    </LIB>
+  </LOGICAL>
+  <PHYSICAL />
+</LIBRARY_DATA>

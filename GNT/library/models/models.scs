@@ -1,0 +1,19 @@
+simulator lang=spectre
+// device models for GNT examples
+model nmosekv ekv3 
+
+// model from Spectre's documentation
+model pchmod bsim3v3 type=p mobmod=1 capmod=2 version=3.1 tox=9e-5 cdsc=1e-3 cdscb=-4.36889e-4 cdscd=0 cit=0
++nfactor=1.79 xj=1.5e-7 vsat=1.5737e5 at=1e5 a0=1.2522809 ags=0.2912413 a1=1.01222e-4 a2=0.996841 keta=0
++nch=4.06263e17 ngate=7.6e19 k1=0.823562
+
+model nchmod bsim3v3 type=n mobmod=1 capmod=2 version=3.1 tox=9e-5 cdsc=1e-3 cdscb=-4.36889e-4 cdscd=0 cit=0
++nfactor=1.79 xj=1.5e-7 vsat=1.5737e5 at=1e5 a0=1.2522809 ags=0.2912413 a1=1.01222e-4 a2=0.996841 keta=0
++nch=4.06263e17 ngate=7.6e19 k1=0.823562
+
+// model variant without local s-d feedback
+model nchmodnocgd bsim3v3 type=n xpart=1 mobmod=1 capmod=0 cgdo=0 cgdl=0 cf=0 version=3.1 tox=9e-5 cdsc=1e-3 cdscb=-4.36889e-4 cdscd=0 cit=0
++nfactor=1.79 xj=1.5e-7 vsat=1.5737e5 at=1e5 a0=1.2522809 ags=0.2912413 a1=1.01222e-4 a2=0.996841 keta=0
++nch=4.06263e17 ngate=7.6e19 k1=0.823562
+
+model ekvnmos ekv type=n update=2.6 xqc=0.4 cox=3.4e-3 xj=0.145e-6 vto=0.6 gamma=0.71 phi=0.967 kp=155e-6 e0=88e6 iba=200e6 ibb=350e6 tnom=25 tcv=1.55e-3 bex=-1.45 kf=1e-27 af=1 hdif=0.94e-6 rsh=512 jsw=1.5e-10

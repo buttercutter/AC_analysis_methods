@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+gnt/CT.Cat type="category"
+gnt/EET.Cat type="category"
+gnt/GFT.Cat type="category"
+gnt/Nested_Multiloop.Cat type="category"
+gnt/YPort type="cell"
+gnt/getting_started.Cat type="category"
+keepEmptyCategory type="unknown"

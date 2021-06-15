@@ -1,0 +1,17 @@
+A complete list of bugs and issues is collected in the public issue tracker at
+https://bitbucket.org/analogdesign/gnt/issues?status=new&amp;status=open
+
+release 2014-06-02 0.3
+======================
+* multiple ADE L sessions are now supported
+* updated getting started guide
+
+
+release 2014-04-02 0.3 (initial release) 
+======================
+
+(initial release)
+
+known issues
+------------
+* IC 6.1.6 ISR1 (possibly others too): label text of frames in Choosing Analyses form does not show

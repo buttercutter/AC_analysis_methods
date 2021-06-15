@@ -1,0 +1,5 @@
+statistics {
+    process {
+        vary Z dist=gauss std=10 percent=yes
+    }
+}

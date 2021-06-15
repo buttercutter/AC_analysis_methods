@@ -1,0 +1,46 @@
+analysis(gnt fields ana_list) "(gnt_analysis_list (theList ((gnt_2gft (theList ((gnt_voltagecurrent_probe (instName \"/ignt0\"))))) (gnt_2gft (theList ((gnt_voltagecurrent_probe (instName \"/ignt1\"))))))))"
+analysis(gnt fields ana_listBox) (nil choices ("2GFT      /ignt0    both" "2GFT      /ignt1    both") value nil)
+analysis(gnt fields center) ""
+analysis(gnt fields dec) ""
+analysis(gnt fields designVar) ""
+analysis(gnt fields dev) ""
+analysis(gnt fields deviceParam) ""
+analysis(gnt fields enable) (t)
+analysis(gnt fields freq) ""
+analysis(gnt fields incrType) "Automatic"
+analysis(gnt fields lin) ""
+analysis(gnt fields log) ""
+analysis(gnt fields mod) ""
+analysis(gnt fields modelParam) ""
+analysis(gnt fields outputs_list) ""
+analysis(gnt fields outputs_listBox) (nil choices nil value nil)
+analysis(gnt fields outputs_manualInput) ""
+analysis(gnt fields rangeType) "Start-Stop"
+analysis(gnt fields sourceInstances_list) ""
+analysis(gnt fields sourceInstances_listBox) (nil choices nil value nil)
+analysis(gnt fields sourceInstances_manualInput) ""
+analysis(gnt fields span) ""
+analysis(gnt fields start) "1"
+analysis(gnt fields step) ""
+analysis(gnt fields stepTypeLin) "Step Size"
+analysis(gnt fields stepTypeLog) "Points Per Decade"
+analysis(gnt fields stop) "10"
+analysis(gnt fields sweep) "Frequency"
+analysis(gnt fields useDiscrete) nil
+analysis(gnt fields values) nil
+analysis(gnt options additionalParams) ""
+analysis(gnt options annotate) ""
+analysis(gnt options keep) nil
+analysis(gnt options nestlvl) ""
+analysis(gnt options oppoint) ""
+analysis(gnt options prevoppoint) ""
+analysis(gnt options readns) ""
+analysis(gnt options refsim) t
+analysis(gnt options restart) ""
+analysis(gnt options save) ""
+analysis(gnt options selectedTFOption) ""
+analysis(gnt options selectedTFs) ""
+analysis(gnt options sensitivity) nil
+analysis(gnt options simplifySISOResultNaming) t
+analysis(gnt options simplifySingleInjectionNaming) t
+analysis(gnt options totalTmason) t

@@ -1,0 +1,5 @@
+TDMCHECKPOINT="1.0"
+gnt/Fox_MultiLoop1 type="cell"
+gnt/Fox_MultiLoop2 type="cell"
+gnt/Wiedmann_MultiLoop1 type="cell"
+keepEmptyCategory type="unknown"

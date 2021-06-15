@@ -1,0 +1,41 @@
+analysis(gnt fields ana_list) "(gnt_analysis_list (theList ((gnt_neet (theList ((gnt_current_probe (instName \"/ignt\"))))))))"
+analysis(gnt fields ana_listBox) (nil choices ("NEET   /ignt  current") value nil)
+analysis(gnt fields center) ""
+analysis(gnt fields dec) ""
+analysis(gnt fields designVar) ""
+analysis(gnt fields dev) ""
+analysis(gnt fields deviceParam) ""
+analysis(gnt fields enable) (t)
+analysis(gnt fields freq) ""
+analysis(gnt fields incrType) "Automatic"
+analysis(gnt fields lin) ""
+analysis(gnt fields log) ""
+analysis(gnt fields mod) ""
+analysis(gnt fields modelParam) ""
+analysis(gnt fields outputs_list) "(gnt_output_list (theList ((gnt_output_node type(\"voltage\") (data \"/v2\")))))"
+analysis(gnt fields outputs_listBox) (nil choices ("1   /v2        voltage") value nil)
+analysis(gnt fields outputs_manualInput) ""
+analysis(gnt fields rangeType) "Start-Stop"
+analysis(gnt fields sourceInstances_list) "(gnt_source_list (theList ((gnt_source (instName \"/V1\")))))"
+analysis(gnt fields sourceInstances_listBox) (nil choices ("1   /V1") value nil)
+analysis(gnt fields sourceInstances_manualInput) ""
+analysis(gnt fields span) ""
+analysis(gnt fields start) "1"
+analysis(gnt fields step) ""
+analysis(gnt fields stepTypeLin) "Step Size"
+analysis(gnt fields stepTypeLog) "Points Per Decade"
+analysis(gnt fields stop) "10M"
+analysis(gnt fields sweep) "Frequency"
+analysis(gnt fields useDiscrete) nil
+analysis(gnt fields values) nil
+analysis(gnt options additionalParams) ""
+analysis(gnt options annotate) ""
+analysis(gnt options keep) nil
+analysis(gnt options nestlvl) ""
+analysis(gnt options oppoint) ""
+analysis(gnt options prevoppoint) ""
+analysis(gnt options readns) ""
+analysis(gnt options restart) ""
+analysis(gnt options save) ""
+analysis(gnt options simplifySISOResultNaming) t
+analysis(gnt options simplifySingleInjectionNaming) t

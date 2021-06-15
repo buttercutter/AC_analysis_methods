@@ -1,0 +1,5 @@
+TDMCHECKPOINT="1.0"
+gnt/Examples.Cat type="category"
+gnt/Probes.Cat type="category"
+gnt/Tests.Cat type="category"
+gnt/devices.Cat type="category"

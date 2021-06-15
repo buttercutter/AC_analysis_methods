@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+gnt/cmdm.Cat type="category"
+gnt/cmdmgntprobe type="cell"
+gnt/cmdmgrtprobe2 type="cell"
+gnt/gntiprobe type="cell"
+gnt/gntprobe type="cell"
+gnt/gntvprobe type="cell"
+keepEmptyCategory type="unknown"

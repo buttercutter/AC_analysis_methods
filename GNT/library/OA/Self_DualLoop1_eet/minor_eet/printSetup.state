@@ -1,0 +1,172 @@
+'(nil version 1.0 bBox ((2 69) (552 657)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1)
+tmp1 = "OP(\"/I16\" \"??\") = ?"
+list(tmp1)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1)
+tmp1 = "OP(\"/I16\" \"??\") = ?"
+list(tmp1)
+)
+printInfoDpl->expTable->expressions = nil
+printInfoDpl->expTable->aliases = nil
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "non wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2)
+tmp2 = "OP(\"/I16\" \"??\") = ?"
+list(tmp1 tmp2)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = nil
+printInfoDpl->waveNameList = nil
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/nfs/data/jverbrug/Self_DualLoop1/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/nfs/data/jverbrug/Self_DualLoop1/spectre"
+printInfoDpl->context->dataDir = "/nfs/data/jverbrug/Self_DualLoop1/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+(unless printInfoDpl->context->simData
+printInfoDpl->context->simData = (ncons nil)
+)
+printInfoDpl->context->simData->drl = nil
+(unless printInfoDpl->context->simData->instData
+printInfoDpl->context->simData->instData = (ncons nil)
+)
+printInfoDpl->context->simData->dataDir = "/nfs/data/jverbrug/Self_DualLoop1/spectre/schematic"
+printInfoDpl->context->simData->simulator = "spectre"
+printInfoDpl->context->simData->aliasList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'subckts
+list(tmp1)
+)
+tmp2 = "subckts-info.subckts"
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'primitives
+list(tmp1)
+)
+tmp2 = "primitives-info.primitives"
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'designParamVals
+list(tmp1)
+)
+tmp2 = "designParamVals-info"
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'output
+list(tmp1)
+)
+tmp2 = "outputParameter-info"
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'instance
+list(tmp1)
+)
+tmp2 = "element-info"
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'model
+list(tmp1)
+)
+tmp2 = "modelParameter-info"
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'ac
+list(tmp1)
+)
+tmp2 = "ac-ac"
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOpInfo
+list(tmp1)
+)
+tmp2 = "dcOpInfo-info"
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'dcOp
+list(tmp1)
+)
+tmp2 = "dcOp-dc"
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1)
+tmp1 = 'variables
+list(tmp1)
+)
+tmp2 = "variables"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+)
+printInfoDpl->context->simulator = nil
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/home/design/jverbrug/git/gnt/library/OA/Self_DualLoop1/minor_eet/printSetup.state"
