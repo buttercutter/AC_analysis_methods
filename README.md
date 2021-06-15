@@ -8,4 +8,4 @@ STATUS:
 TODO:
 1. Experiment with [existing GNT implementation](./GNT) inside Cadence Virtuoso
 
-Credit :  [@Wiedmann](https://sites.google.com/site/frankwiedmann/loopgain)
+Credit :  [@Wiedmann](https://sites.google.com/site/frankwiedmann/loopgain) and [Edaboard forum](https://www.edaboard.com/threads/middlebrooks-method-vs-tians-method-vs-middlebrooks-general-feedback-theorem.393450/)
