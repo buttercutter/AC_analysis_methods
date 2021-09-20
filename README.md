@@ -1,8 +1,8 @@
 # AC_analysis_methods
-A list of AC analysis methods used by various analog circuit analysis software
+A list of AC analysis methods (collected and compiled across the public internet domain) used by various analog circuit analysis software
 
 STATUS:
-1. Finished studying Middlebrooks method
+1. Studying Middlebrooks method and Tian method
 2. Studying 2EET now for GNT
 
 TODO:
